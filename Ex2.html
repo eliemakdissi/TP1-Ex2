@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>
+            Ex2
+        </title>
+    </head>
+    <body>
+        <h1><b>Reigster to our online service</b></h1>
+        <form>
+            <fieldset>
+                <legend>Personal details</legend>
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" placeholder="First name only"><br><br>
+                <label for="lname">Last Name</label><br>
+                <input type="text" id="lname" placeholder="Last name only"><br><br>
+                <label for="birth">Date of Birth</label><br>
+                <input type="date" id="date"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" placeholder="example@domain.com"><br><br>
+                <label for="url">URL</label><br>
+                <input type="url" id="url" placeholder="http://mywebsite.com"><br><br>
+                <label for="telephone">Telephone</label><br>
+                <input type="tel" id="telephone" placeholder="Eg. +447000 000000"><br><br>
+                <label for="shoesize">Shoesize</label><br>
+                <input type="number" id="shoesize" value="9"><br><br>
+                <label for="skilllevel">Flying Skill level(1 low - 100 high)</label><br>
+                <input type="range" id="skilllevel" value="5"><br><br>
+                <span>o</span>
+            </fieldset>
+        </form>
+        <br><br>
+        <form>
+            <fieldset>
+                <legend>Billing address</legend>
+                <span>Address</span><textarea id="address" rows="5" cols="18"></textarea><br>
+                <label for="pcode">Post code</label><br>
+                <input type="text" id="pcode"><br><br>
+                <label for="country">Country</label><br>
+                <input type="text" id="country"><br><br>              
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Card details</legend>
+                <br>
+                <form>
+                    <fieldset>
+                        <legend>Card type</legend>
+                        <input type="radio" id="visa"><label for="visa">VISA</label>
+                        <input type="radio" id="mastercard"><label for="mastercard">Mastercard</label>
+                        <input type="radio" id="amex"><label for="amex">AMEX</label><br>
+                    </fieldset>
+                </form>
+                <br>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" placeholder="Name as it appears on your ID"><br><br>
+                <label for="cardnumber">Card</label><br>
+                <input type="number" id="cardnumber"><br><br>
+                <label for="securitycode">Security code</label><br>
+                <input type="number" id="securitycode"><br><br>
+                <label for="expirydate">Expiry Date</label><br>
+                <input type="text" id="expirydate"><br><br>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <br>
+                <input type="submit" value="Register Now">
+                <br><br>
+            </fieldset>
+        </form>
+    </body>
+</html>
